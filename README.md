@@ -2,7 +2,7 @@
 Data analytics project using Python, SQL and Power BI
 > An end-to-end analysis of [dataset topic], from raw data to business insights, using Python, SQL, and Power BI.
 
-![Dashboard Preview](Customer Behavior Dashboard.pbix)
+![Dashboard Preview](Customer_Behavior_Dashboard.pbix)
 
 ---
 
