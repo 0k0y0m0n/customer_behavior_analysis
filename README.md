@@ -38,23 +38,31 @@ Data analytics project using Python, SQL and Power BI
 
 | Item | Details |
 |------|---------|
-| **Source** | [Kaggle / company data / public API, with link] |
-| **Size** | [e.g., 50,000 rows × 15 columns] |
-| **Time period** | [e.g., Jan 2022 – Dec 2023] |
+| **Source** | [customer_shopping_behavior.csv] |
+| **Size** | [e.g., 3901 rows × 18 columns] |
 | **Format** | CSV |
 
 **Key columns:**
 
 | Column | Description |
 |--------|-------------|
-| `order_id` | Unique order identifier |
-| `order_date` | Date the order was placed |
-| `customer_id` | Unique customer identifier |
-| `product_category` | Category of the product |
-| `sales` | Revenue from the order |
-| `region` | Customer region |
-
-*(Replace with your actual columns.)*
+| `customer_id` | Unique order identifier |
+|`age`| Age of the Customer|
+| `item_purchased` | Item purchased by the Customer |
+| `category` | Category of the item purchased by the customer |
+| `purchase_amount` | Price of the item |
+| `location` | Location |
+| `size` | Size of the item |
+|`color`| Color of the item |
+|`season`| Season |
+|`review_rating`| Review rating of the item |
+|`subscription_status`| Subscription status |
+|`shipping_type`| Shipping type |
+|`discount_applied`| Discount applied |
+|`promo_code_used`| Promo code used |
+|`previous_purchase`| Previous Purchase |
+|`payment_method`| Payment method |
+|`frequency_of_purchases`| Frequency of purchases |
 
 ---
 
@@ -62,10 +70,10 @@ Data analytics project using Python, SQL and Power BI
 
 | Category | Tools |
 |----------|-------|
-| **Programming** | Python (Pandas, NumPy, Matplotlib, Seaborn) |
-| **Database** | PostgreSQL / MySQL / SQL Server *(keep the one you used)* |
+| **Programming** | Python (Pandas) |
+| **Database** | PostgreSQL |
 | **Visualization** | Power BI |
-| **Reporting** | Microsoft Word / PDF, PowerPoint |
+| **Reporting** | PDF, PowerPoint |
 | **Environment** | Jupyter Notebook, Git & GitHub |
 
 ---
