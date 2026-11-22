@@ -1,6 +1,6 @@
 # customer_behavior_analysis
 Data analytics project using Python, SQL and Power BI
-> An end-to-end analysis of [dataset topic], from raw data to business insights, using Python, SQL, and Power BI.
+> An end-to-end analysis of Customer Shopping Behavior, from raw data to business insights, using Python, SQL, and Power BI.
 
 ![Dashboard Preview](Customer_Behavior_Dashboard.pbix)
 
