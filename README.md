@@ -230,7 +230,7 @@ Open and run in order:
 
 | Deliverable | Link |
 |-------------|------|
-| 📊 Power BI Dashboard | [`powerbi/dashboard.pbix`](powerbi/dashboard.pbix) |
+| 📊 Power BI Dashboard | [`powerbi/Customer Behavior Dashboard.pbix`](powerbi/Customer Behavior Dashboard.pbix) |
 | 📄 Project Report | [`reports/project_report.pdf`](reports/project_report.pdf) |
 | 🖥️ Presentation | [`reports/presentation.pptx`](reports/presentation.pptx) |
 
