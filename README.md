@@ -17,7 +17,6 @@ Data analytics project using Python, SQL and Power BI
 7. [Project Structure](#project-structure)
 8. [How to Run](#how-to-run)
 9. [Deliverables](#deliverables)
-10. [Author](#author)
 
 ---
 
@@ -132,7 +131,7 @@ The interactive dashboard includes:
 - **Breakdowns:** By category, region, and customer segment
 - **Filters:** Date, region, and category slicers
 
-![Dashboard Screenshot](images/dashboard_full.png)
+![Dashboard Screenshot](customer_behavior_dashboard.png)
 
 📁 File: [`powerbi/dashboard.pbix`](powerbi/dashboard.pbix)
 
