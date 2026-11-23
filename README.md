@@ -38,7 +38,7 @@ Data analytics project using Python, SQL and Power BI
 | Item | Details |
 |------|---------|
 | **Source** | [customer_shopping_behavior.csv] |
-| **Size** | [e.g., 3901 rows × 18 columns] |
+| **Size** | [3901 rows × 18 columns] |
 | **Format** | CSV |
 
 **Key columns:**
@@ -133,7 +133,7 @@ The interactive dashboard includes:
 
 ![Dashboard Screenshot](customer_behavior_dashboard.png)
 
-📁 File: [`powerbi/dashboard.pbix`](powerbi/dashboard.pbix)
+📁 File: [`Customer_Behavior_Dashboard.pbix`](Customer_Behavior_Dashboard.pbix)
 
 ---
 
@@ -155,31 +155,28 @@ The interactive dashboard includes:
 ## Project Structure
 
 ```
-project-name/
+customer_behavior_analysis/
 │
 ├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
+│   ├── customer_shopping_behavior.csv
+│   └──  customer_shopping_behavior_cleaned.csv
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   └── 02_data_cleaning.ipynb
+│   └── customer_shopping_behavior_data_cleaning.ipynb
 │
 ├── sql/
-│   ├── create_tables.sql
-│   └── analysis_queries.sql
+│   └── customer_shopping_behavior_sql_query.sql
 │
 ├── powerbi/
-│   └── dashboard.pbix
+│   └── Customer_Behavior_Dashboard.pbix
 │
 ├── reports/
-│   ├── project_report.pdf
-│   └── presentation.pptx
+│   ├── Customer_Behavior_Analysis.pdf
+│   └── Customer-shopping-behavior-presentation.pdf
 │
 ├── images/
-│   └── dashboard_preview.png
+│   └── customer_behavior_dashboard.png
 │
-├── requirements.txt
 └── README.md
 ```
 
@@ -190,22 +187,20 @@ project-name/
 ### Prerequisites
 
 - Python 3.9+
-- PostgreSQL / MySQL / SQL Server
+- PostgreSQL 
 - Power BI Desktop (Windows)
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/your-username/Customer Shopping Behavior.git
+cd Customer Shopping Behavior
 ```
 
 ### 2. Set up the Python environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
 ```
 
 ### 3. Run the notebooks
@@ -215,19 +210,18 @@ jupyter notebook
 ```
 
 Open and run in order:
-1. `notebooks/01_eda.ipynb`
-2. `notebooks/02_data_cleaning.ipynb`
+1. `customer_shopping_behavior_data_cleaning.ipynb`
 
 ### 4. Set up the database
 
-1. Create a new database (e.g., `analytics_db`).
+1. Create a new database.
 2. Run `sql/create_tables.sql` to create the tables.
-3. Import `data/cleaned_data.csv` into the table.
+3. Import ` customer_shopping_behavior.csv` into the table.
 4. Run the queries in `sql/analysis_queries.sql`.
 
 ### 5. Open the dashboard
 
-1. Open `powerbi/dashboard.pbix` in Power BI Desktop.
+1. Open `Customer_Behavior_Dashboard.pbix` in Power BI Desktop.
 2. If prompted, update the data source path or database connection.
 3. Click **Refresh** to load the data.
 
@@ -237,12 +231,9 @@ Open and run in order:
 
 | Deliverable | Link |
 |-------------|------|
-| 📊 Power BI Dashboard | [`powerbi/Customer Behavior Dashboard.pbix`](powerbi/Customer Behavior Dashboard.pbix) |
-| 📄 Project Report | [`reports/project_report.pdf`](reports/project_report.pdf) |
-| 🖥️ Presentation | [`reports/presentation.pptx`](reports/presentation.pptx) |
+| 📊 Power BI Dashboard | [`Customer_Behavior_Dashboard.pbix`](powerbi/Customer_Behavior_Dashboard.pbix) |
+| 📄 Project Report | [`reports/My_Customer_Shopping_Behavior_Analysis.pdf`](reports/My_Customer_Shopping_Behavior_Analysis.pdf) |
+| 🖥️ Presentation | [`reports/Customer-shopping-behavior-presentation.pdf`](reports/Customer-shopping-behavior-presentation.pdf) |
 
 
 
-
-3. **[Insight 3]:** e.g., "The West region has the highest revenue, while the South has the lowest profit margin."
-4. **[Insight 4]:** e.g., "Discounts above 30% lead to negative profit."
